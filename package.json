@@ -1,0 +1,36 @@
+{
+  "name": "ace-css",
+  "version": "1.0.0",
+  "description": "CSS for the people in rush",
+  "main": "dist/ace.css",
+  "scripts": {
+    "sass": "node-sass --watch --output-style expanded src/ace.scss dist/ace.css && node-sass --output-style compressed src/ace.scss dist/ace.min.css",
+    "serve": "browser-sync start --no-notify -s test --ss dist -f dist"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "css3",
+    "flexbox",
+    "front-end",
+    "framework",
+    "html",
+    "html5",
+    "kickstarter",
+    "less",
+    "responsive",
+    "mobile",
+    "mobile-first",
+    "postcss",
+    "responsive",
+    "sass",
+    "scss",
+    "stylus"
+  ],
+  "author": "Saheb Giri <iamsahebgiri@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "node-sass": "^5.0.0"
+  }
+}
