@@ -1,13 +1,8 @@
 {
   "name": "ace-css",
   "version": "1.0.0",
-  "description": "CSS for the people in rush",
+  "description": "ACE CSS - A Modern and Fresh CSS Framework",
   "main": "dist/ace.css",
-  "scripts": {
-    "sass": "node-sass --output-style expanded src/ace.scss dist/ace.css && node-sass --output-style compressed src/ace.scss dist/ace.min.css",
-    "serve": "browser-sync start --no-notify -s test --ss dist -f dist",
-    "watch": "onchange src -- npm run sass"
-  },
   "keywords": [
     "bootstrap",
     "css",
@@ -31,8 +26,14 @@
   "author": "Saheb Giri <iamsahebgiri@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.13",
-    "node-sass": "^5.0.0",
-    "onchange": "^7.1.0"
-  }
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-csscomb": "^3.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {}
 }
